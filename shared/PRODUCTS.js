@@ -1,0 +1,154 @@
+import jerkyImg from '../assets/images/jerky.jpeg';
+import cheeseImg from '../assets/images/cheese.jpeg';
+import salmonImg from '../assets/images/salmon.jpeg';
+import barBImg from '../assets/images/barb.jpg';
+import thaiImg from '../assets/images/chili.jpg';
+import honeyPImg from '../assets/images/honeyp.jpeg';
+import colbyImg from '../assets/images/colby.jpeg';
+import mozzImg from '../assets/images/mozz.jpeg';
+import pepperjackImg from '../assets/images/pepperjack.jpeg';
+import cheddarImg from '../assets/images/cheddar.jpeg';
+import sockeyeImg from '../assets/images/sockeye.jpg';
+
+export const PRODUCTSARRAY = [
+  {
+    id: 0,
+    name: 'Jerky',
+    image: jerkyImg,
+    description:
+      'Every piece of jerky gets slow smoked in a variety of hardwoods that include Mesquite, Hickory, Alder, and Apple. Our jerky comes in portions of 5lbs and is made weekly.',
+    process:
+      "We start with the finest Local Grass-Fed Texas Beef: Eye of the Round, to be exact. This beef is super lean and makes for a jerky unlike ANY you've ever tried.",
+    type: 'category',
+    price: '$10.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 1,
+    name: 'Cheese',
+    image: cheeseImg,
+    description:
+      'All of our cheese is the highest quality and smoked with Applewood. Our cheeses come in 4oz portions, and all cheese are $5.00.',
+    type: 'category',
+    price: '$5.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 2,
+    name: 'Salmon',
+    image: salmonImg,
+    description:
+      'Freshly smoked wild caught Alaskan Sockeye and Coho salmon (type depends on season). Portions are 7oz for $10.00. (All orders require a 3-day minimum advance notice.)',
+    process:
+      'We brine the salmon for several hours to prepare it for smoking in a secret solution to help remove some of them moisture. The fish then forms a pellicle, a type of barrier and case on the outside, when its ready for smoking.',
+    type: 'category',
+    price: '$10.00',
+    portion: '7 ounces',
+    seasonal: false,
+  },
+  {
+    id: 3,
+    name: "Dragon's Fire Thai Chili",
+    image: thaiImg,
+    description:
+      "Dragons Fire Thai Chili starts with exactly what you see in this picture: dozens of fresh Thai Chilis are used in each five-pound batch.  Very tender, this jerky finishes with a dragon's bite.",
+    type: 'jerky',
+    price: '$10.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 4,
+    name: 'Bar-B-Yaki',
+    image: barBImg,
+    description:
+      "Our Bar-B-Yaki flavor Beef Jerky is made with Sweet Baby Ray's BBQ sauce combined with our own blend of teriyaki sauce and secret spices.",
+    type: 'jerky',
+    price: '$10.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 5,
+    name: 'Honey Peppered',
+    image: honeyPImg,
+    description:
+      'We use Local Raw Organic Honey in our Honey Peppered Marinade, which gets brushed on each piece in the smoking process.',
+    type: 'jerky',
+    price: '$10.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 6,
+    name: 'Colby Jack',
+    image: colbyImg,
+    description: 'Colby Jack',
+    type: 'cheese',
+    price: '$5.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 7,
+    name: 'Mozzarella',
+    image: mozzImg,
+    description: 'Mozzarella',
+    type: 'cheese',
+    price: '$5.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 8,
+    name: 'Pepper Jack',
+    image: pepperjackImg,
+    description: 'Pepper Jack',
+    type: 'cheese',
+    price: '$5.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 9,
+    name: 'Sharp Cheddar',
+    image: cheddarImg,
+    description: 'Sharp Cheddar',
+    type: 'cheese',
+    price: '$5.00',
+    portion: '4 ounces',
+    seasonal: false,
+  },
+  {
+    id: 10,
+    name: 'Hatch Chile',
+    image: '',
+    description: 'Seasonal hatch chile flavored jerky',
+    type: 'jerky',
+    price: '$10.00',
+    portion: '4 ounces',
+    seasonal: true,
+  },
+  {
+    id: 11,
+    name: 'Alaskan Sockeye',
+    image: sockeyeImg,
+    description: 'Wild caught Alaskan sockeye smoked weekly and on-demand',
+    type: 'salmon',
+    price: '$10.00',
+    portion: '7 ounces',
+    seasonal: false,
+  },
+  {
+    id: 12,
+    name: 'Coho',
+    image: '',
+    description: 'Coho salmon',
+    type: 'salmon',
+    price: '10.00',
+    portion: '7 ounces',
+    seasonal: true,
+  },
+];
